@@ -1,0 +1,11 @@
+# ./tools/sigmac -t sql -c ./tools/config/resurfaceio.yaml ./rules/generic/generic_brute_force.yml --backend-option table=memory.resurface.message 
+title: Resurfaceio
+backends:
+  - sql
+  - sqlite
+  - resurface
+
+fieldmappings:
+    DestinationHostname: host
+    response: response_body
+    url: host
