@@ -9,5 +9,5 @@ Command:
 Example:
 
 ```
-./tools/sigmac -t sql -c ./tools/config/resurfaceio.yaml ./rules/generic/generic_brute_force.yml --backend-option table=memory.resurface.message 
+./tools/sigmac -t resurface -c ./tools/config/resurfaceio.yaml ./rules/generic/generic_brute_force.yml --backend-option table=memory.resurface.message 
 ```
