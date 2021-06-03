@@ -5,6 +5,7 @@ backends:
   - resurface
 
 fieldmappings:
-    DestinationHostname: host
-    response: response_body
-    url: host
+  DestinationHostname: host
+  response: response_body
+  url: host
+  category: something_else
