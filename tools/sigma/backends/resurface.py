@@ -47,7 +47,7 @@ class ResurfaceBackend(SQLBackend):
     def generateFTS(self, value):
         if re.search(r"((\\(\*|\?|\\))|\*|\?|_|%)", value):
             raise NotImplementedError(
-                "Wildcards in SQlite Full Text Search not implemented"
+                "Wildcards in Resurface Full Text Search is currently not implemented"
             )
         self.countFTS += 1
         return self.mapFullTextSearch % (self.table, value)
