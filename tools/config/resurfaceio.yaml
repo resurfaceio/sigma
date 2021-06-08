@@ -1,11 +1,11 @@
 title: Resurfaceio
 backends:
-  - sql
-  - sqlite
   - resurface
 
 fieldmappings:
   DestinationHostname: host
   response: response_body
   url: host
-  category: something_else
+  category: some_category
+  action: actn
+  dst_ip: destonation_ip
